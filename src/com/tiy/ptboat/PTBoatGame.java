@@ -40,7 +40,7 @@ public class PTBoatGame
 		String[] rowGuess = {"A", "B", "F", "I", "B", "K"};
 		int[] columnGuess = {1, 3, 6, 6, 2, 8};
 
-		for(int i = 0; i< rowBoatLocation.length; i++)
+		for(int i = 0; i < rowBoatLocation.length; i++)
 		{
 			battlePTBoat.addBoat(rowBoatLocation[i], columnBoatLocation[i]);
 		}
