@@ -13,7 +13,7 @@ public class PTBoat
 	
 	public boolean isHit(String row, int column)
 	{
-		if((this.row == row) && (this.column == column))
+		if((this.row.equals(row)) && (this.column == column))
 		{
 			return true;
 		}
